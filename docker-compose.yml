@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  react_dev:
+    build: 'frontend'
+    volumes:
+      - /app/frontend/node_modules
+      - ./frontend:/app/frontend
+    ports:
+      - ${PORT}:3000
+    command: yarn start
