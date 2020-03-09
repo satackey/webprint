@@ -1,0 +1,17 @@
+{
+  "name": "React",
+  "dockerComposeFile": ["docker-compose.yml"],
+  "service": "react_dev",
+  "workspaceFolder": "/app/frontend",
+  "settings": {
+    "terminal.integrated.shell.linux": null
+  },
+  "extensions": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "visualstudioexptteam.vscodeintellicode",
+    "donjayamanne.githistory",
+    "xyz.local-history",
+  ],
+  "postCreateCommand": "apt-get update && apt-get install -y git",
+}

@@ -5,13 +5,7 @@ services:
     build: 'frontend'
     volumes:
       - /app/frontend/node_modules
-      - ./frontend:/app/frontend
+      - .:/app
     ports:
       - ${PORT}:3000
     command: yarn start
-
-  react_dev_host_installer:
-    build: 'frontend'
-    volumes:
-      - ./frontend/node_modules:/host_app/frontend/node_modules
-    command: cp -r node_modules /host_app/frontend
