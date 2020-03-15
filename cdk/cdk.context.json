@@ -1,0 +1,12 @@
+{
+  "@aws-cdk/core:enableStackNameDuplicates": "true",
+  "aws-cdk:enableDiffNoFail": "true",
+  "hosted-zone:account=647259013994:domainName=webprint.satackey.com:privateZone=false:region=us-east-1": {
+    "Id": "/hostedzone/Z2I1I7A8SYS11A",
+    "Name": "webprint.satackey.com."
+  },
+  "hosted-zone:account=511877299712:domainName=awspractice.satackey.com.:privateZone=false:region=ap-northeast-1": {
+    "Id": "/hostedzone/ZWW4URCL190ME",
+    "Name": "awspractice.satackey.com."
+  }
+}
